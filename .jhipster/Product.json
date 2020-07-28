@@ -1,0 +1,54 @@
+{
+    "name": "Product",
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "brand",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "price",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "manufacturingDate",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "expiringDate",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "warranty",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "imageLink",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "image",
+            "fieldType": "byte[]",
+            "fieldTypeBlobContent": "any"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200727024442",
+    "entityTableName": "product",
+    "dto": "mapstruct",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "Store4",
+    "applications": "*",
+    "microserviceName": "Store4"
+}

@@ -1,0 +1,40 @@
+entity Store{
+	name String,
+	description String,
+	phoneNumber String
+	
+}
+
+entity Product {
+	name String,
+	description String,
+    brand String,
+	price Double,
+	manufacturingDate Instant,
+	expiringDate Instant,
+	warranty String,
+	imageLink String,
+    image Blob
+	} 
+	
+entity Stock{
+    name String,
+	description String,
+ 	noOfStock Long,
+	}
+ 
+
+
+relationship OneToMany{
+	
+	Store{stock} to Stock{store},
+
+}
+relationship OneToOne{
+	Stock{product} to Product
+}
+ 
+
+service all with serviceImpl
+
+dto * with mapstruct

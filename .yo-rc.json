@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.sooraj.study"
+    },
+    "jhipsterVersion": "6.6.0",
+    "applicationType": "microservice",
+    "baseName": "Store4",
+    "packageName": "com.sooraj.study",
+    "packageFolder": "com/sooraj/study",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZTc2Mzk3M2Y3NjkzODljNzBjZWJhZjRlYzZjMDRhY2ViMzAwOGE1MTdmYjA0YTg2ZGFmZDk0OWUzNGQ5MmM5ZjIyYmNhN2E0YmVhYTY0ZWQyYTQ0ZmM1OTE5N2YzZDRmYzc1MzQxODUxMWJlZWY4ZDE2ZWY4Y2QyNTBjOGNmNWU=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1595817611447,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
