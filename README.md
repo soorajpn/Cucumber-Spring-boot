@@ -69,3 +69,8 @@ CucumberContextConfiguration.class
     }
 
 use @Mock from mockito and @Injet from javax while using mock objects
+
+##Error
+mesg:Command line is too long. Shorten command line for
+solution: run/debug config ->change the the shoten command line into "Jar manifest option"
+
